@@ -3,21 +3,25 @@ $( function() {
  
       fname = $( "#fname" ),
       oname = $( "#oname" ),
+      gurdian = $( "#gurdian" ),
       email = $( "#email" ),
       qualify = $( "#qualify" ),
+      p_phone = $( "#p_phone" ),
+      gurdian_name = $('#gurdian_name')
+      gurdian_phone = $('#gurdian_phone')
       tips = $( ".validateTips" );
  
   
  //not using it yet don't remove
     function addUser() {
-      console.log('email is  ', fname.val())
+      console.log('email is  ', gurdian.val())
       dialog.dialog( "close" );
 
     }
  
     dialog = $( "#dialog-form" ).dialog({
       autoOpen: false,
-      height: 500,
+      height: 700,
       width: 500,
       modal: true,
       buttons: {
