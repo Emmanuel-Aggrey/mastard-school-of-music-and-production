@@ -1,1 +1,1 @@
-Mastard School of music and Production
+mustard School of music and Production
