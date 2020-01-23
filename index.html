@@ -138,13 +138,15 @@
                                
                                 <form>
                                   <fieldset>
-                                    <label for="name">First Name</label>
-                                    <input type="text" name="name" id="fname" value=" Smith" class="text ui-widget-content ui-corner-all">
-                                    <label for="name">Other Names</label>
-                                    <input type="text" name="name" id="oname" value="Jane " class="text ui-widget-content ui-corner-all">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" name="fname" id="fname" value="" class="text ui-widget-content ui-corner-all">
+                                    
+                                    <label for="oname">Other Names</label>
+                                    <input type="text" name="oname" id="oname" value=" " class="text ui-widget-content ui-corner-all">
                                   
                                     <label for="email">Email</label>
                                     <input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all" placeholder="me@gmail.com">
+                                   
                                     <label for="qualify">Qualification</label>
                                     <input type="text" name="qualify" id="qualify" value="" class="text ui-widget-content ui-corner-all">
                                
@@ -755,7 +757,14 @@
     <!-- form itself end -->
 
 
+<div id="vueapp">
+
+{{name}}
+
+</div>
+
     <!-- JS here -->
+    <script src="js/vue.js"></script>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
